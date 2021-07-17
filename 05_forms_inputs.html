@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs Fields</title>
+</head>
+
+<body>
+    <!-- Form -->
+    <form action="">
+        <!-- Input - Name -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="John Doe">
+        </div>
+        <!-- Input - Email -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" value="HardcodedValue@mymail.com">
+        </div>
+        <!-- Input - Password -->
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <!-- TextArea -->
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="messsage" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Input - Number -->
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <!-- Input - Date -->
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="DateOfMonth">
+        </div>
+        <!-- Input - Radio Button -->
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" id="simple" name="simple" selected><label for="simple">Simple</label>
+            <input type="radio" name="secure" id="secure"> <label for="secure">Secure</label>
+            <input type="radio" name="highSecure" id="highSecure"> <label for="highSecure">High Secure</label>
+            <input type="radio" name="noMember" id="noMember"> <label for="noMember">No Membership</label>
+        </div>
+        <!-- Input - Checkbox -->
+        <div>
+            <label for="like">Hobbies</label>
+            <input type="checkbox" name="cricket" id="game"><label for="game">Cricket</label>
+            <input type="checkbox" name="swim" id="waterSwim"><label for="waterSwim">Swimming</label>
+        </div>
+        <!-- Buttons Type - Submit, Reset  -->
+        <!-- <input type="submit" value="Submit"> -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
